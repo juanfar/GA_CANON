@@ -40,3 +40,19 @@ li {
 	border-radius: 5px 5px 5px 5px;
 }
 
+
+section#productos {
+ /*display: inline;*/
+}
+
+.botones {
+ margin-top: 100px;
+}
+
+.botones button{
+ width: 200px;
+}
+
+.container {
+ margin-left: 200px;
+}
