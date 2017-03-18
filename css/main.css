@@ -1,0 +1,42 @@
+.contenedor{
+	width: 800px;
+	height: 250px;
+	margin: auto;
+	position: relative;
+}
+
+.background{
+	background-image: url('../images/fondo01.png');
+	background-size: cover;
+	background-repeat:no-repeat;
+    background-size:cover;
+}
+
+ul{
+position: absolute;
+margin-top: 15px;
+}
+
+/*.barramenu{
+	align-items: flex-end;
+	background: #2222;
+}*/
+li { 
+	display: inline-block;
+}
+
+.barramenu a{
+	display: inline-block;
+	color: #FFFFFF;
+	font-size: 15px;
+	text-decoration: none;
+	padding: 5px 20px;
+	float: left;
+}
+
+.barramenu a:hover{
+	background: #FFF;
+	color: #000;
+	border-radius: 5px 5px 5px 5px;
+}
+
