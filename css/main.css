@@ -1,3 +1,7 @@
+body {
+	overflow-x: hidden;
+}
+
 .contenedor{
 	width: 800px;
 	height: 250px;
@@ -62,6 +66,77 @@ section#productos {
  position: absolute;
 }
 
-.container {
+.mleft {
  margin-left: 200px;
+}
+
+.fleft {
+	float: left;
+}
+
+.mtop {
+ margin-top: 100px;
+}
+
+.mtop1 {
+	margin-top: 40px;
+}
+
+footer#foot {
+	background: black;
+}
+
+form{
+ width:400px;
+ margin-bottom: 20px;
+ padding: 10px 20px;
+ border-radius: 7px;
+ background-color: white;
+ box-sizing:border-box;
+ margin-top:20px;
+ text-align: center;
+ margin-right: 0;
+}
+input,textarea,select{
+ width: 100%;
+ margin-bottom: 20px;
+ padding: 7px;
+ box-sizing:border-box;
+ font-size: 17px;
+ border: none;
+ background: #E9E9E9
+}
+
+form h2{
+ color: #ff4136;
+ font-size: 40px;
+ margin-bottom: 20px;
+ display:inline-block;
+ font-family: inherit;
+}
+textarea{
+ max-height: 200px;
+ min-height:100px;
+ max-width: 100%;
+}
+#boton{
+ background-color: #ff4136;
+ color: #fff;
+ padding: 5px;
+ border: none;
+ width: 100%;
+ font-family: inherit;
+ font-weight: bolder;
+ font-size: 2em;
+}
+#boton:hover{
+ cursor:pointer;
+}
+
+@media (max-width:480px){
+
+  form{
+   width:100%;
+ } 
+
 }

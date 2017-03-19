@@ -16,7 +16,7 @@
 		        <li class="caja"><a href="#">Home</a></li>
 		        <li><a href="#productos">Equipo fotografico</a></li>
 		        <li><a href="secundaria.html">Precios</a></li>
-		        <li><a href="#footer">Contactenos</a></li>
+		        <li><a href="#foot">Contactenos</a></li>
 		      </ul>
 		</nav>
 	</header>
@@ -25,7 +25,7 @@
 
 	<!-- comienza seccion productos -->
 	<section id="productos">
-		<div class="container">
+		<div class="container mleft">
    			<div class="col-md-12">
     			<div class="botones col-md-5">
 		     		<button id="btn_enfoque" class="btn btn-danger">Canon Enfoque</button><br><br>
@@ -44,13 +44,28 @@
     	   </div>
     	</div>	
 	</section>
-	<!-- fin seccion inicio -->
-	<aside>
-		
-	</aside>
+	
 	<!-- comienza footer -->
-	<footer id="foot">
-		
+	<footer id="foot" class="mtop">
+		<div class="container">
+			<div class="col-md-6">
+				<form action="">
+					<h2>Contáctanos</h2>
+					<input type="text" name="nombre" class="nombre" placeholder="Tu Nombre">
+					<input type="text" name="apellido" class="apellido" placeholder="Tus Apellidos">
+					<input type="email" name="correo" class="correo" placeholder="Tu Correo">
+					<input type="tel" name="telefono" class="telefono" placeholder="Tu Telefono">
+					<textarea name="mensaje" id="" class="mensaje" placeholder="Déjanos tu mensaje:"></textarea>
+					<button name="enviar" id="boton" class="boton_envio">Enviar</button>
+				</form>
+			</div>
+			<div class="col-md-6 mtop1">
+				<img src="images/Canon_logo.png" width="50%" alt="">
+				<div class="mapa mtop1 fleft">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.4965103954373!2d-74.06194868597971!3d4.683425343113003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9ae97bf59f57%3A0x4bf577e07ef0a1b2!2sCanon!5e0!3m2!1ses!2sco!4v1489884959847" width="600" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+				</div>
+			</div>
+		</div>
 	</footer>
 	<!-- fin footer -->
 <script src="js/main.js"></script>
