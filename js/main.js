@@ -20,6 +20,7 @@ videos.style.display = "none";
 
 mostrarVideos = function () {
  videos.style.display = "block";
+ videos.classList.add('animated', 'bounceIn');
  aventura.style.display = "none";
  eos.style.display = "none";
  conectividad.style.display = "none";
@@ -28,6 +29,7 @@ mostrarVideos = function () {
 
 mostrarConectividad = function () {
  conectividad.style.display = "block";
+ conectividad.classList.add('animated', 'bounceIn');
  aventura.style.display = "none";
  eos.style.display = "none";
  enfoque.style.display = "none";
@@ -36,6 +38,7 @@ mostrarConectividad = function () {
 
 mostrarEos = function () {
  eos.style.display = "block";
+ eos.classList.add('animated', 'bounceIn');
  aventura.style.display = "none";
  enfoque.style.display = "none";
  conectividad.style.display = "none";
@@ -44,6 +47,7 @@ mostrarEos = function () {
 
 mostrarAventura = function () {
  aventura.style.display = "block";
+ aventura.classList.add('animated', 'bounceIn');
  enfoque.style.display = "none";
  eos.style.display = "none";
  conectividad.style.display = "none";
@@ -52,6 +56,7 @@ mostrarAventura = function () {
 
 mostrarEnfoque = function () {
  enfoque.style.display = "block";
+ enfoque.classList.add('animated', 'bounceIn');
  aventura.style.display = "none";
  eos.style.display = "none";
  conectividad.style.display = "none";
