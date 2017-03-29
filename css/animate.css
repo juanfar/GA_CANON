@@ -3338,3 +3338,95 @@
   -webkit-animation-name: slideOutUp;
   animation-name: slideOutUp;
 }
+
+#enfoque2 {
+  height: 100%;
+  width: 100%;
+  position:relative;
+  transform-style: preserve-3d;
+  transition: 2s;
+  box-shadow: 0px 0px 9px black;
+}
+#videos2 {
+  height: 100%;
+  width: 100%;
+  position:relative;
+  transform-style: preserve-3d;
+  transition: 2s;
+  box-shadow: 0px 0px 9px black;
+}
+#conectividad2 {
+  height: 100%;
+  width: 100%;
+  position:relative;
+  transform-style: preserve-3d;
+  transition: 2s;
+  box-shadow: 0px 0px 9px black;
+}
+#eos2 {
+  height: 100%;
+  width: 100%;
+  position:relative;
+  transform-style: preserve-3d;
+  transition: 2s;
+  box-shadow: 0px 0px 9px black;
+}
+#aventura2 {
+  height: 100%;
+  width: 100%;
+  position:relative;
+  transform-style: preserve-3d;
+  transition: 2s;
+  box-shadow: 0px 0px 9px black;
+}
+.imagenes2 {
+  height: 200px;
+  width: 800px;
+  margin: auto;
+}
+.imagenes2 {
+  -webkit-perspective:700;
+}
+.caja {
+  height: 100px;
+  width: 100px;
+  position:relative;
+  transform-style: preserve-3d;
+  transition: 2s;
+  box-shadow: 0px 0px 9px red;
+  padding: 5px 5px 5px 5px;
+  display: inline-block;
+
+}
+
+.lado {
+  width: 100%;
+  height: 100%;
+  backface-visibility:hidden;
+  position:absolute;
+}
+.frente {
+  background-color:#f0f0f0;
+}
+
+.atras {
+  background: rgba(230, 102, 82, 0.6);
+  transform: rotateY(180deg);
+}
+.ani{
+  width: 100%;
+  height: 100%;
+}
+.caja:hover {
+  transform: rotateY(180deg);
+}
+
+h4 {
+  style="font-weight: bold;
+  style="font-weight: 300;
+  text-align: center;
+  font: bold 36px Verdana;
+  vertical-align: middle;
+  text-decoration-color: #FF0000;
+  color: #FFFFFF;
+}
